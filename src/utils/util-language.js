@@ -1,4 +1,4 @@
-export const VALID_LANGUAGES = ['en', 'es', 'pt', 'fr', 'de', 'it']
+export const VALID_LANGUAGES = ["en", "es", "pt", "fr", "de", "it"];
 
 export const DYNAMIC_CONTENT = {
   en: {
@@ -6,141 +6,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "IBERIAN PRODUCTS AND COLD CUTS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "ACORN-FED IBERIAN HAM",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "IBERIAN SALCHICHÓN",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "IBERIAN CHORIZO",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SPICY CHORIZO",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PORK-BELLY CHICHARRON",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "WHITE SAUSAGE",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BLACK PUDDING",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHEESE IN OLIVE OIL",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "AGED CHEESE",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SPICY CHEESE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PAYOYO CHEESE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "TAPAS AND RATIONS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "RUSSIAN SALAD",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MOORISH CHICKEN SKEWER",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MEATBALLS WITH TOMATO SAUCE",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "OCTOPUS SALPICON",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "WHITE ANCHOVIES IN VINEGAR",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOVIES",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "PRESERVES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "MARINATED MUSSELS",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CANTABRIAN ANCHOVIES",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "SALADS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "TOMATE WITH TUNA",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CONIL TOMATO WITH TUNA",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ROASTED PEPPERS WITH TUNA",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MIXED SALAD",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ARTICHOKES",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
@@ -152,141 +228,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "PRODUCTOS IBÉRICOS Y CHACINAS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "JAMON IBÉRICO DE BELLOTA",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALCHICHÓN IBÉRICO",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO IBÉRICO",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO PICANTE",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHICHARRONES",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BUTIFARRA",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MORCILLA",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO EN ACEITE",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO CURADO",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO PICANTE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO PAYOYO",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
-        category: "TAPAS Y RACIONES",
+        category: "TAPAS Y RACIóNES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "ENSALADILLA",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PINCHITO MORUNO",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ALBONDIGAS CON TOMATE",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALPICON DE PULPO",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BOQUERONES EN VINAGRE",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOAS",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "CONSERVAS",
+        size: ["ración"],
         items: [
           {
             name: "MEJILLONES EN ESCABECHE",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: "",
+              medium: "",
+              large: 8,
+            },
           },
           {
             name: "ANCHOAS DEL CANTÁBRICO",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: "",
+              medium: "",
+              large: 8,
+            },
           },
         ],
       },
       {
         category: "ENSALADAS",
+        size: ["ración"],
         items: [
           {
             name: "TOMATE CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: "",
+              medium: "",
+              large: 9.5,
+            },
           },
           {
             name: "TOMATE DE CONIL CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: "",
+              medium: "",
+              large: 9.5,
+            },
           },
           {
             name: "PIMIENTOS ASADOS CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: "",
+              medium: "",
+              large: 9.5,
+            },
           },
           {
             name: "ENSALADA MIXTA",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: "",
+              medium: "",
+              large: 9.5,
+            },
           },
           {
             name: "ALCACHOFAS",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: "",
+              medium: "",
+              large: 10,
+            },
           },
         ],
       },
@@ -298,141 +450,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "Productos Ibéricos y Chacinas",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "JAMON IBÉRICO DE BELLOTA",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALCHICHÓN IBÉRICO",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO IBÉRICO",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO PICANTE",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHICHARRONES",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BUTIFARRA",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MORCILLA",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO EN ACEITE",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO CURADO",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO PICANTE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "QUESO PAYOYO",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
-        category: "TAPAS Y RACIONES",
+        category: "TAPAS Y RACIóNES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "ENSALADILLA",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PINCHITO MORUNO",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ALBONDIGAS CON TOMATE",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALPICON DE PULPO",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BOQUERONES EN VINAGRE",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOAS",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "CONSERVAS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "MEJILLONES EN ESCABECHE",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOAS DEL CANTÁBRICO",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "ENSALADAS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "TOMATE CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "TOMATE DE CONIL CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PIMIENTOS ASADOS CON ATÚN",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ENSALADA MIXTA",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ALCACHOFAS",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
@@ -444,141 +672,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "PRODUITS IBÉRIQUES ET CHARCUTERIES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "JAMBON IBÉRIQUE DE GLAND",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALCHICHÓN IBÉRIQUE",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO IBÉRIQUE",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO ÉPICÉ",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "COURNEES DE PORC FRIT",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SAUCISSE BLANCHE",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BOUDIN NOIR",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FROMAGE À L'HUILE D'OLIVE",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FROMAGE AFFINÉ",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FROMAGE ÉPICÉ",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FROMAGE PAYOYO",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "TAPAS ET PORTIONS",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "SALADE RUSSE",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BROCHETTE DE POULET",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BOULETTES DE VIANDE À LA SAUCE TOMATE",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "POULPE SALPICON",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOIS BLANCS AU VINAIGRE",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOIS",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "CONSERVES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "MOULES MARINÉES",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOIS DU CANTABRIQUE",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "SALADES",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "TOMATE AVEC THON",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "TOMATE DE CONIL AVEC THON",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PIMENTS RÔTIS AVEC THON",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALADE MIXTE",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ARTICHAUTS",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
@@ -590,141 +894,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "IBERISCHE PRODUKTE UND WURSTWAREN",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "IBERISCHER SCHINKEN AUS EICHELMAST",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "IBERISCHE SALCHICHÓN",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "IBERISCHE CHORIZO",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SCHARFE CHORIZO",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SCHWEINEBAUCH CHICHARRONES",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "WEISSWURST",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "BLUTSCHWURST",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "KÄSE IN OLIVENÖL",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "GEALTER KÄSE",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SCHARFER KÄSE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PAYOYO KÄSE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "TAPAS UND PORTIONEN",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "RUSSISCHER SALAT",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "MOORISCHER HÄHNCHENSPIESS",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FLEISCHBÄLLCHEN IN TOMATENSOSSE",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "OCTOPUS SALPICON",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "WEISSE ANCHOVIS IN ESSIG",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ANCHOVIS",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "KONSERVEN",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "MARINIERTE MUSCHELN",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "KANTABRISCHE ANCHOVIS",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "SALATE",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "TOMATE MIT THUNFISCH",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "TOMATE DE CONIL MIT THUNFISCH",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "GERÖSTETE PAPRIKA MIT THUNFISCH",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "GEMISCHTER SALAT",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ARTISCHOCKEN",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
@@ -736,141 +1116,217 @@ export const DYNAMIC_CONTENT = {
     menu: [
       {
         category: "PRODOTTI IBERICI E SALUMI",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "PROSCIUTTO IBERICO DI BELLOTA",
-            price: 12,
-            //ingredients: ["Pan", "Tomate", "Ajo", "Aceite de oliva"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALCHICHÓN IBÉRICO",
-            price: 7,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO IBÉRICO",
-            price: 3.9,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHORIZO PICCANTE",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CHICHARRONES",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALSICCIA BIANCA",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SANGUINACCIO",
-            price: 3.8,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FORMAGGIO IN OLIO D'OLIVA",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FORMAGGIO STAGIONATO",
-            price: 4,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FORMAGGIO PICCANTE",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "FORMAGGIO PAYOYO",
-            price: 4.5,
-            //ingredients: ["Lechuga", "Pollo", "Queso", "Aderezo César"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "TAPAS E PORZIONI",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "INSALATA RUSSA",
-            price: 3.8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SPIEDINO DI POLLO MOORISH",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "POLPETTE DI CARNE AL SUGO DI POMODORO",
-            price: 3.9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "SALPICON DI POLPO",
-            price: 9,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ACCIUGHE BIANCHE IN ACETO",
-            price: 3.8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ACCIUGHE NERE",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "CONSERVE",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "COZZE MARINATE",
-            price: 8,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "ACCIUGHE DEL CANTABRICO",
-            price: 8,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
       {
         category: "INSALATE",
+        size: ["tapa", "media", "ración"],
         items: [
           {
             name: "POMODORO CON TONNO",
-            price: 9.5,
-            //ingredients: ["Masa", "Tomate", "Mozzarella", "Albahaca"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "POMODORO DI CONIL CON TONNO",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "PEPERONI ARROSTITI CON TONNO",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "INSALATA MIXTA",
-            price: 9.5,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
           {
             name: "CARCIOFI",
-            price: 10,
-            //ingredients: ["Pasta", "Carne", "Bechamel", "Queso"],
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
           },
         ],
       },
