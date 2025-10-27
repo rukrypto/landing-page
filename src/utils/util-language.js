@@ -233,89 +233,89 @@ export const DYNAMIC_CONTENT = {
           {
             name: "JAMON IBÉRICO DE BELLOTA",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 0,
+              medium: 12,
+              large: 20,
             },
           },
           {
             name: "SALCHICHÓN IBÉRICO",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 0,
+              medium: 0,
+              large: 0,
             },
           },
           {
             name: "CHORIZO IBÉRICO",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 0,
+              medium: 0,
+              large: 0,
             },
           },
           {
             name: "CHORIZO PICANTE",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 5.80,
+              medium: 8,
+              large: 12,
             },
           },
           {
             name: "CHICHARRONES",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 4,
+              medium: 8.50,
+              large: 14,
             },
           },
           {
             name: "BUTIFARRA",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 3.80,
+              medium: 8,
+              large: 12,
             },
           },
           {
             name: "MORCILLA",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 3.80,
+              medium: 8,
+              large: 12,
             },
           },
           {
             name: "QUESO EN ACEITE",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 4,
+              medium: 8,
+              large: 14,
             },
           },
           {
             name: "QUESO CURADO",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 4,
+              medium: 8,
+              large: 14,
             },
           },
           {
             name: "QUESO PICANTE",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 4.50,
+              medium: 8.50,
+              large: 14,
             },
           },
           {
             name: "QUESO PAYOYO",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 4.50,
+              medium: 9,
+              large: 18,
             },
           },
         ],
@@ -327,51 +327,35 @@ export const DYNAMIC_CONTENT = {
           {
             name: "ENSALADILLA",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "PINCHITO MORUNO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "ALBONDIGAS CON TOMATE",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 3.80,
+              medium: 8,
+              large: 12,
             },
           },
           {
             name: "SALPICON DE PULPO",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 3.80,
+              medium: 8,
+              large: 9,
             },
           },
           {
             name: "BOQUERONES EN VINAGRE",
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
+              small: 3.80,
+              medium: 8,
+              large: 12,
             },
           },
           {
-            name: "ANCHOAS",
+            name: "ANCHOAS DEL CANTABRICO",
             price: {
               small: 1,
               medium: 2,
               large: 3,
             },
-          },
+          }
         ],
       },
       {

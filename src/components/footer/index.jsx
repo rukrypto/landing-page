@@ -1,7 +1,11 @@
-const Footer = ({ onchange, langs }) => {
+import styles from "./styles.module.scss";
+
+const Footer = () => {
   return (
-    <div>
-        FOOTER
+    <div className={`${styles.footer} ${styles.footer__container}`}>
+      <div className={`${styles.footer__wrapper}`}>
+        <img src="./assets/images/footer.svg" alt="" />
+      </div>
     </div>
   );
 };
