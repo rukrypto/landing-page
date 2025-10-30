@@ -86,13 +86,14 @@
   }
 
   &__item {
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 
     &__title {
-      
+      margin: 0;
     }
 
     &__prices {
@@ -103,6 +104,7 @@
       column-gap: 10px;
 
       .price {
+        margin: 0;
         text-align: right;
         width: 70px;
         font-weight: 500;
