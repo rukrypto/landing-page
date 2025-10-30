@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 .table {
   &__container {
     width: 100%;
@@ -7,6 +9,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
+
   }
 
   &__header {
@@ -17,11 +20,15 @@
     border-left: 0;
     border-right: 0;
     padding: 5px 0;
-    background: #ebebea;
+    background-image: url('/../public/assets/images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       width: 100%;
       max-width: 1000px;
       height: 5px;
@@ -57,6 +64,9 @@
 
     &__title,
     .size {
+      font-family: 'Cinzel Decorative', serif;
+      font-weight: 800;
+      font-style: normal;
       color: #790000;
     }
 
@@ -82,6 +92,7 @@
     flex-wrap: nowrap;
 
     &__title {
+      
     }
 
     &__prices {
@@ -94,6 +105,7 @@
       .price {
         text-align: right;
         width: 70px;
+        font-weight: 500;
       }
     }
   }

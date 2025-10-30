@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main className="home">
       <div className="">
-        <p className={styles.title}>
+        {/* <p className={styles.title}>
           {DYNAMIC_CONTENT[currentLanguage].title || ""}
-        </p>
+        </p> */}
 
         {DYNAMIC_CONTENT[currentLanguage].menu.map((menu, index) => {
           return (

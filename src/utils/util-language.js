@@ -1,15 +1,15 @@
-export const VALID_LANGUAGES = ["en", "es", "pt", "fr", "de", "it"];
+export const VALID_LANGUAGES = ['en', 'es', 'pt', 'fr', 'de', 'it'];
 
 export const DYNAMIC_CONTENT = {
   en: {
-    title: "Hello, World!",
+    title: 'Hello, World!',
     menu: [
       {
-        category: "IBERIAN PRODUCTS AND COLD CUTS",
-        size: ["tapa", "media", "ración"],
+        category: 'IBERIAN PRODUCTS AND COLD CUTS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "ACORN-FED IBERIAN HAM",
+            name: 'ACORN-FED IBERIAN HAM',
             price: {
               small: 1,
               medium: 2,
@@ -17,7 +17,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "IBERIAN SALCHICHÓN",
+            name: 'IBERIAN SALCHICHÓN',
             price: {
               small: 1,
               medium: 2,
@@ -25,7 +25,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "IBERIAN CHORIZO",
+            name: 'IBERIAN CHORIZO',
             price: {
               small: 1,
               medium: 2,
@@ -33,7 +33,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SPICY CHORIZO",
+            name: 'SPICY CHORIZO',
             price: {
               small: 1,
               medium: 2,
@@ -41,7 +41,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PORK-BELLY CHICHARRON",
+            name: 'PORK-BELLY CHICHARRON',
             price: {
               small: 1,
               medium: 2,
@@ -49,7 +49,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "WHITE SAUSAGE",
+            name: 'WHITE SAUSAGE',
             price: {
               small: 1,
               medium: 2,
@@ -57,7 +57,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "BLACK PUDDING",
+            name: 'BLACK PUDDING',
             price: {
               small: 1,
               medium: 2,
@@ -65,7 +65,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHEESE IN OLIVE OIL",
+            name: 'CHEESE IN OLIVE OIL',
             price: {
               small: 1,
               medium: 2,
@@ -73,7 +73,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "AGED CHEESE",
+            name: 'AGED CHEESE',
             price: {
               small: 1,
               medium: 2,
@@ -81,7 +81,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SPICY CHEESE",
+            name: 'SPICY CHEESE',
             price: {
               small: 1,
               medium: 2,
@@ -89,7 +89,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PAYOYO CHEESE",
+            name: 'PAYOYO CHEESE',
             price: {
               small: 1,
               medium: 2,
@@ -99,11 +99,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "TAPAS AND RATIONS",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS AND RATIONS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "RUSSIAN SALAD",
+            name: 'RUSSIAN SALAD',
             price: {
               small: 1,
               medium: 2,
@@ -111,7 +111,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "MOORISH CHICKEN SKEWER",
+            name: 'MOORISH CHICKEN SKEWER',
             price: {
               small: 1,
               medium: 2,
@@ -119,7 +119,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "MEATBALLS WITH TOMATO SAUCE",
+            name: 'MEATBALLS WITH TOMATO SAUCE',
             price: {
               small: 1,
               medium: 2,
@@ -127,7 +127,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "OCTOPUS SALPICON",
+            name: 'OCTOPUS SALPICON',
             price: {
               small: 1,
               medium: 2,
@@ -135,7 +135,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "WHITE ANCHOVIES IN VINEGAR",
+            name: 'WHITE ANCHOVIES IN VINEGAR',
             price: {
               small: 1,
               medium: 2,
@@ -143,7 +143,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ANCHOVIES",
+            name: 'ANCHOVIES',
             price: {
               small: 1,
               medium: 2,
@@ -153,11 +153,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "PRESERVES",
-        size: ["tapa", "media", "ración"],
+        category: 'PRESERVES',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "MARINATED MUSSELS",
+            name: 'MARINATED MUSSELS',
             price: {
               small: 1,
               medium: 2,
@@ -165,7 +165,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CANTABRIAN ANCHOVIES",
+            name: 'CANTABRIAN ANCHOVIES',
             price: {
               small: 1,
               medium: 2,
@@ -175,11 +175,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "SALADS",
-        size: ["tapa", "media", "ración"],
+        category: 'SALADS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "TOMATE WITH TUNA",
+            name: 'TOMATE WITH TUNA',
             price: {
               small: 1,
               medium: 2,
@@ -187,7 +187,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CONIL TOMATO WITH TUNA",
+            name: 'CONIL TOMATO WITH TUNA',
             price: {
               small: 1,
               medium: 2,
@@ -195,7 +195,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ROASTED PEPPERS WITH TUNA",
+            name: 'ROASTED PEPPERS WITH TUNA',
             price: {
               small: 1,
               medium: 2,
@@ -203,7 +203,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "MIXED SALAD",
+            name: 'MIXED SALAD',
             price: {
               small: 1,
               medium: 2,
@@ -211,7 +211,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ARTICHOKES",
+            name: 'ARTICHOKES',
             price: {
               small: 1,
               medium: 2,
@@ -224,14 +224,14 @@ export const DYNAMIC_CONTENT = {
   },
 
   es: {
-    title: "¡Hola, Mundo!",
+    title: '¡Hola, Mundo!',
     menu: [
       {
-        category: "PRODUCTOS IBÉRICOS Y CHACINAS",
-        size: ["tapa", "media", "ración"],
+        category: 'PRODUCTOS IBÉRICOS Y CHACINAS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "JAMON IBÉRICO DE BELLOTA",
+            name: 'JAMON IBÉRICO DE BELLOTA',
             price: {
               small: 0,
               medium: 12,
@@ -239,63 +239,55 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALCHICHÓN IBÉRICO",
+            name: 'SALCHICHÓN IBÉRICO',
             price: {
-              small: 0,
-              medium: 0,
-              large: 0,
-            },
-          },
-          {
-            name: "CHORIZO IBÉRICO",
-            price: {
-              small: 0,
-              medium: 0,
-              large: 0,
-            },
-          },
-          {
-            name: "CHORIZO PICANTE",
-            price: {
-              small: 5.80,
+              small: 3.8,
               medium: 8,
               large: 12,
             },
           },
           {
-            name: "CHICHARRONES",
+            name: 'CHORIZO IBÉRICO',
+            price: {
+              small: 3.8,
+              medium: 8,
+              large: 12,
+            },
+          },
+          {
+            name: 'CHORIZO PICANTE',
+            price: {
+              small: 3.8,
+              medium: 8,
+              large: 12,
+            },
+          },
+          {
+            name: 'CHICHARRONES',
             price: {
               small: 4,
-              medium: 8.50,
+              medium: 8.5,
               large: 14,
             },
           },
           {
-            name: "BUTIFARRA",
+            name: 'BUTIFARRA',
             price: {
-              small: 3.80,
+              small: 3.8,
               medium: 8,
               large: 12,
             },
           },
           {
-            name: "MORCILLA",
+            name: 'MORCILLA',
             price: {
-              small: 3.80,
+              small: 3.8,
               medium: 8,
               large: 12,
             },
           },
           {
-            name: "QUESO EN ACEITE",
-            price: {
-              small: 4,
-              medium: 8,
-              large: 14,
-            },
-          },
-          {
-            name: "QUESO CURADO",
+            name: 'QUESO EN ACEITE',
             price: {
               small: 4,
               medium: 8,
@@ -303,17 +295,25 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "QUESO PICANTE",
+            name: 'QUESO CURADO',
             price: {
-              small: 4.50,
-              medium: 8.50,
+              small: 4,
+              medium: 8,
               large: 14,
             },
           },
           {
-            name: "QUESO PAYOYO",
+            name: 'QUESO PICANTE',
             price: {
-              small: 4.50,
+              small: 4.5,
+              medium: 8.5,
+              large: 14,
+            },
+          },
+          {
+            name: 'QUESO PAYOYO',
+            price: {
+              small: 4.5,
               medium: 9,
               large: 18,
             },
@@ -321,123 +321,137 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "TAPAS Y RACIóNES",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS Y RACIÒNES',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "ENSALADILLA",
+            name: 'ENSALADILLA',
             price: {
-              small: 3.80,
+              small: 3.8,
               medium: 8,
               large: 12,
             },
           },
           {
-            name: "SALPICON DE PULPO",
+            name: 'SALPICON DE PULPO',
             price: {
-              small: 3.80,
-              medium: 8,
+              small: 0,
+              medium: 0,
               large: 9,
             },
           },
           {
-            name: "BOQUERONES EN VINAGRE",
+            name: 'BOQUERONES EN VINAGRE',
             price: {
-              small: 3.80,
+              small: 3.8,
               medium: 8,
               large: 12,
             },
           },
           {
-            name: "ANCHOAS DEL CANTABRICO",
+            name: 'ANCHOAS',
             price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          }
-        ],
-      },
-      {
-        category: "CONSERVAS",
-        size: ["ración"],
-        items: [
-          {
-            name: "MEJILLONES EN ESCABECHE",
-            price: {
-              small: "",
-              medium: "",
-              large: 8,
-            },
-          },
-          {
-            name: "ANCHOAS DEL CANTÁBRICO",
-            price: {
-              small: "",
-              medium: "",
-              large: 8,
+              small: 3.8,
+              medium: 8,
+              large: 12,
             },
           },
         ],
       },
       {
-        category: "ENSALADAS",
-        size: ["ración"],
+        category: 'CONSERVAS',
+        size: ['ración'],
         items: [
           {
-            name: "TOMATE CON ATÚN",
+            name: 'MEJILLONES EN ESCABECHE',
             price: {
-              small: "",
-              medium: "",
+              small: '',
+              medium: '',
+              large: 8,
+            },
+          },
+          {
+            name: 'ANCHOAS DEL CANTÁBRICO',
+            price: {
+              small: '',
+              medium: '',
+              large: 8,
+            },
+          },
+        ],
+      },
+      {
+        category: 'ENSALADAS',
+        size: ['ración'],
+        items: [
+          {
+            name: 'TOMATE CON ATÚN',
+            price: {
+              small: '',
+              medium: '',
               large: 9.5,
             },
           },
           {
-            name: "TOMATE DE CONIL CON ATÚN",
+            name: 'TOMATE DE CONIL CON ATÚN',
             price: {
-              small: "",
-              medium: "",
+              small: '',
+              medium: '',
               large: 9.5,
             },
           },
           {
-            name: "PIMIENTOS ASADOS CON ATÚN",
+            name: 'PIMIENTOS ASADOS CON ATÚN',
             price: {
-              small: "",
-              medium: "",
+              small: '',
+              medium: '',
               large: 9.5,
             },
           },
           {
-            name: "ENSALADA MIXTA",
+            name: 'ENSALADA MIXTA',
             price: {
-              small: "",
-              medium: "",
+              small: '',
+              medium: '',
               large: 9.5,
             },
           },
           {
-            name: "ALCACHOFAS",
+            name: 'ALCACHOFAS',
             price: {
-              small: "",
-              medium: "",
+              small: '',
+              medium: '',
               large: 10,
             },
           },
         ],
       },
+      // {
+      //   category: '',
+      //   size: [],
+      //   items: [
+      //     {
+      //       name: '',
+      //       price: {
+      //         small: 0,
+      //         medium: 0,
+      //         large: 0,
+      //       },
+      //     },
+      //   ],
+      // },
     ],
   },
 
   pt: {
-    title: "Olá, Mundo!",
+    title: 'Olá, Mundo!',
     menu: [
       {
-        category: "Productos Ibéricos y Chacinas",
-        size: ["tapa", "media", "ración"],
+        category: 'Productos Ibéricos y Chacinas',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "JAMON IBÉRICO DE BELLOTA",
+            name: 'JAMON IBÉRICO DE BELLOTA',
             price: {
               small: 1,
               medium: 2,
@@ -445,7 +459,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALCHICHÓN IBÉRICO",
+            name: 'SALCHICHÓN IBÉRICO',
             price: {
               small: 1,
               medium: 2,
@@ -453,7 +467,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO IBÉRICO",
+            name: 'CHORIZO IBÉRICO',
             price: {
               small: 1,
               medium: 2,
@@ -461,7 +475,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO PICANTE",
+            name: 'CHORIZO PICANTE',
             price: {
               small: 1,
               medium: 2,
@@ -469,7 +483,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHICHARRONES",
+            name: 'CHICHARRONES',
             price: {
               small: 1,
               medium: 2,
@@ -477,7 +491,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "BUTIFARRA",
+            name: 'BUTIFARRA',
             price: {
               small: 1,
               medium: 2,
@@ -485,7 +499,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "MORCILLA",
+            name: 'MORCILLA',
             price: {
               small: 1,
               medium: 2,
@@ -493,7 +507,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "QUESO EN ACEITE",
+            name: 'QUESO EN ACEITE',
             price: {
               small: 1,
               medium: 2,
@@ -501,7 +515,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "QUESO CURADO",
+            name: 'QUESO CURADO',
             price: {
               small: 1,
               medium: 2,
@@ -509,7 +523,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "QUESO PICANTE",
+            name: 'QUESO PICANTE',
             price: {
               small: 1,
               medium: 2,
@@ -517,7 +531,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "QUESO PAYOYO",
+            name: 'QUESO PAYOYO',
             price: {
               small: 1,
               medium: 2,
@@ -527,11 +541,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "TAPAS Y RACIóNES",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS Y RACIÒNES',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "ENSALADILLA",
+            name: 'ENSALADILLA',
             price: {
               small: 1,
               medium: 2,
@@ -539,7 +553,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PINCHITO MORUNO",
+            name: 'PINCHITO MORUNO',
             price: {
               small: 1,
               medium: 2,
@@ -547,7 +561,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ALBONDIGAS CON TOMATE",
+            name: 'ALBONDIGAS CON TOMATE',
             price: {
               small: 1,
               medium: 2,
@@ -555,7 +569,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALPICON DE PULPO",
+            name: 'SALPICON DE PULPO',
             price: {
               small: 1,
               medium: 2,
@@ -563,7 +577,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "BOQUERONES EN VINAGRE",
+            name: 'BOQUERONES EN VINAGRE',
             price: {
               small: 1,
               medium: 2,
@@ -571,7 +585,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ANCHOAS",
+            name: 'ANCHOAS',
             price: {
               small: 1,
               medium: 2,
@@ -581,11 +595,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "CONSERVAS",
-        size: ["tapa", "media", "ración"],
+        category: 'CONSERVAS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "MEJILLONES EN ESCABECHE",
+            name: 'MEJILLONES EN ESCABECHE',
             price: {
               small: 1,
               medium: 2,
@@ -593,7 +607,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ANCHOAS DEL CANTÁBRICO",
+            name: 'ANCHOAS DEL CANTÁBRICO',
             price: {
               small: 1,
               medium: 2,
@@ -603,11 +617,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "ENSALADAS",
-        size: ["tapa", "media", "ración"],
+        category: 'ENSALADAS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "TOMATE CON ATÚN",
+            name: 'TOMATE CON ATÚN',
             price: {
               small: 1,
               medium: 2,
@@ -615,7 +629,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "TOMATE DE CONIL CON ATÚN",
+            name: 'TOMATE DE CONIL CON ATÚN',
             price: {
               small: 1,
               medium: 2,
@@ -623,7 +637,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PIMIENTOS ASADOS CON ATÚN",
+            name: 'PIMIENTOS ASADOS CON ATÚN',
             price: {
               small: 1,
               medium: 2,
@@ -631,7 +645,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ENSALADA MIXTA",
+            name: 'ENSALADA MIXTA',
             price: {
               small: 1,
               medium: 2,
@@ -639,7 +653,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ALCACHOFAS",
+            name: 'ALCACHOFAS',
             price: {
               small: 1,
               medium: 2,
@@ -652,14 +666,14 @@ export const DYNAMIC_CONTENT = {
   },
 
   fr: {
-    title: "Bonjour, le Monde !",
+    title: 'Bonjour, le Monde !',
     menu: [
       {
-        category: "PRODUITS IBÉRIQUES ET CHARCUTERIES",
-        size: ["tapa", "media", "ración"],
+        category: 'PRODUITS IBÉRIQUES ET CHARCUTERIES',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "JAMBON IBÉRIQUE DE GLAND",
+            name: 'JAMBON IBÉRIQUE DE GLAND',
             price: {
               small: 1,
               medium: 2,
@@ -667,7 +681,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALCHICHÓN IBÉRIQUE",
+            name: 'SALCHICHÓN IBÉRIQUE',
             price: {
               small: 1,
               medium: 2,
@@ -675,7 +689,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO IBÉRIQUE",
+            name: 'CHORIZO IBÉRIQUE',
             price: {
               small: 1,
               medium: 2,
@@ -683,7 +697,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO ÉPICÉ",
+            name: 'CHORIZO ÉPICÉ',
             price: {
               small: 1,
               medium: 2,
@@ -691,7 +705,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "COURNEES DE PORC FRIT",
+            name: 'COURNEES DE PORC FRIT',
             price: {
               small: 1,
               medium: 2,
@@ -699,7 +713,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SAUCISSE BLANCHE",
+            name: 'SAUCISSE BLANCHE',
             price: {
               small: 1,
               medium: 2,
@@ -707,7 +721,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "BOUDIN NOIR",
+            name: 'BOUDIN NOIR',
             price: {
               small: 1,
               medium: 2,
@@ -723,7 +737,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FROMAGE AFFINÉ",
+            name: 'FROMAGE AFFINÉ',
             price: {
               small: 1,
               medium: 2,
@@ -731,7 +745,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FROMAGE ÉPICÉ",
+            name: 'FROMAGE ÉPICÉ',
             price: {
               small: 1,
               medium: 2,
@@ -739,61 +753,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FROMAGE PAYOYO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-        ],
-      },
-      {
-        category: "TAPAS ET PORTIONS",
-        size: ["tapa", "media", "ración"],
-        items: [
-          {
-            name: "SALADE RUSSE",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "BROCHETTE DE POULET",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "BOULETTES DE VIANDE À LA SAUCE TOMATE",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "POULPE SALPICON",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "ANCHOIS BLANCS AU VINAIGRE",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "ANCHOIS",
+            name: 'FROMAGE PAYOYO',
             price: {
               small: 1,
               medium: 2,
@@ -803,11 +763,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "CONSERVES",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS ET PORTIONS',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "MOULES MARINÉES",
+            name: 'SALADE RUSSE',
             price: {
               small: 1,
               medium: 2,
@@ -815,7 +775,39 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ANCHOIS DU CANTABRIQUE",
+            name: 'BROCHETTE DE POULET',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'BOULETTES DE VIANDE À LA SAUCE TOMATE',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'POULPE SALPICON',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'ANCHOIS BLANCS AU VINAIGRE',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'ANCHOIS',
             price: {
               small: 1,
               medium: 2,
@@ -825,11 +817,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "SALADES",
-        size: ["tapa", "media", "ración"],
+        category: 'CONSERVES',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "TOMATE AVEC THON",
+            name: 'MOULES MARINÉES',
             price: {
               small: 1,
               medium: 2,
@@ -837,7 +829,21 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "TOMATE DE CONIL AVEC THON",
+            name: 'ANCHOIS DU CANTABRIQUE',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+        ],
+      },
+      {
+        category: 'SALADES',
+        size: ['tapa', 'media', 'ración'],
+        items: [
+          {
+            name: 'TOMATE AVEC THON',
             price: {
               small: 1,
               medium: 2,
@@ -845,7 +851,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PIMENTS RÔTIS AVEC THON",
+            name: 'TOMATE DE CONIL AVEC THON',
             price: {
               small: 1,
               medium: 2,
@@ -853,7 +859,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALADE MIXTE",
+            name: 'PIMENTS RÔTIS AVEC THON',
             price: {
               small: 1,
               medium: 2,
@@ -861,7 +867,15 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ARTICHAUTS",
+            name: 'SALADE MIXTE',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'ARTICHAUTS',
             price: {
               small: 1,
               medium: 2,
@@ -874,14 +888,14 @@ export const DYNAMIC_CONTENT = {
   },
 
   de: {
-    title: "Hallo, Welt!",
+    title: 'Hallo, Welt!',
     menu: [
       {
-        category: "IBERISCHE PRODUKTE UND WURSTWAREN",
-        size: ["tapa", "media", "ración"],
+        category: 'IBERISCHE PRODUKTE UND WURSTWAREN',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "IBERISCHER SCHINKEN AUS EICHELMAST",
+            name: 'IBERISCHER SCHINKEN AUS EICHELMAST',
             price: {
               small: 1,
               medium: 2,
@@ -889,7 +903,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "IBERISCHE SALCHICHÓN",
+            name: 'IBERISCHE SALCHICHÓN',
             price: {
               small: 1,
               medium: 2,
@@ -897,7 +911,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "IBERISCHE CHORIZO",
+            name: 'IBERISCHE CHORIZO',
             price: {
               small: 1,
               medium: 2,
@@ -905,7 +919,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SCHARFE CHORIZO",
+            name: 'SCHARFE CHORIZO',
             price: {
               small: 1,
               medium: 2,
@@ -913,7 +927,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SCHWEINEBAUCH CHICHARRONES",
+            name: 'SCHWEINEBAUCH CHICHARRONES',
             price: {
               small: 1,
               medium: 2,
@@ -921,7 +935,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "WEISSWURST",
+            name: 'WEISSWURST',
             price: {
               small: 1,
               medium: 2,
@@ -929,7 +943,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "BLUTSCHWURST",
+            name: 'BLUTSCHWURST',
             price: {
               small: 1,
               medium: 2,
@@ -937,7 +951,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "KÄSE IN OLIVENÖL",
+            name: 'KÄSE IN OLIVENÖL',
             price: {
               small: 1,
               medium: 2,
@@ -945,7 +959,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "GEALTER KÄSE",
+            name: 'GEALTER KÄSE',
             price: {
               small: 1,
               medium: 2,
@@ -953,7 +967,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SCHARFER KÄSE",
+            name: 'SCHARFER KÄSE',
             price: {
               small: 1,
               medium: 2,
@@ -961,7 +975,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PAYOYO KÄSE",
+            name: 'PAYOYO KÄSE',
             price: {
               small: 1,
               medium: 2,
@@ -971,11 +985,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "TAPAS UND PORTIONEN",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS UND PORTIONEN',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "RUSSISCHER SALAT",
+            name: 'RUSSISCHER SALAT',
             price: {
               small: 1,
               medium: 2,
@@ -983,7 +997,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "MOORISCHER HÄHNCHENSPIESS",
+            name: 'MOORISCHER HÄHNCHENSPIESS',
             price: {
               small: 1,
               medium: 2,
@@ -991,7 +1005,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FLEISCHBÄLLCHEN IN TOMATENSOSSE",
+            name: 'FLEISCHBÄLLCHEN IN TOMATENSOSSE',
             price: {
               small: 1,
               medium: 2,
@@ -999,7 +1013,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "OCTOPUS SALPICON",
+            name: 'OCTOPUS SALPICON',
             price: {
               small: 1,
               medium: 2,
@@ -1007,7 +1021,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "WEISSE ANCHOVIS IN ESSIG",
+            name: 'WEISSE ANCHOVIS IN ESSIG',
             price: {
               small: 1,
               medium: 2,
@@ -1015,7 +1029,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ANCHOVIS",
+            name: 'ANCHOVIS',
             price: {
               small: 1,
               medium: 2,
@@ -1025,11 +1039,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "KONSERVEN",
-        size: ["tapa", "media", "ración"],
+        category: 'KONSERVEN',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "MARINIERTE MUSCHELN",
+            name: 'MARINIERTE MUSCHELN',
             price: {
               small: 1,
               medium: 2,
@@ -1037,7 +1051,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "KANTABRISCHE ANCHOVIS",
+            name: 'KANTABRISCHE ANCHOVIS',
             price: {
               small: 1,
               medium: 2,
@@ -1047,11 +1061,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "SALATE",
-        size: ["tapa", "media", "ración"],
+        category: 'SALATE',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "TOMATE MIT THUNFISCH",
+            name: 'TOMATE MIT THUNFISCH',
             price: {
               small: 1,
               medium: 2,
@@ -1059,7 +1073,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "TOMATE DE CONIL MIT THUNFISCH",
+            name: 'TOMATE DE CONIL MIT THUNFISCH',
             price: {
               small: 1,
               medium: 2,
@@ -1067,7 +1081,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "GERÖSTETE PAPRIKA MIT THUNFISCH",
+            name: 'GERÖSTETE PAPRIKA MIT THUNFISCH',
             price: {
               small: 1,
               medium: 2,
@@ -1075,7 +1089,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "GEMISCHTER SALAT",
+            name: 'GEMISCHTER SALAT',
             price: {
               small: 1,
               medium: 2,
@@ -1083,7 +1097,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ARTISCHOCKEN",
+            name: 'ARTISCHOCKEN',
             price: {
               small: 1,
               medium: 2,
@@ -1096,14 +1110,14 @@ export const DYNAMIC_CONTENT = {
   },
 
   it: {
-    title: "Ciao, Mondo!",
+    title: 'Ciao, Mondo!',
     menu: [
       {
-        category: "PRODOTTI IBERICI E SALUMI",
-        size: ["tapa", "media", "ración"],
+        category: 'PRODOTTI IBERICI E SALUMI',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "PROSCIUTTO IBERICO DI BELLOTA",
+            name: 'PROSCIUTTO IBERICO DI BELLOTA',
             price: {
               small: 1,
               medium: 2,
@@ -1111,7 +1125,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALCHICHÓN IBÉRICO",
+            name: 'SALCHICHÓN IBÉRICO',
             price: {
               small: 1,
               medium: 2,
@@ -1119,7 +1133,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO IBÉRICO",
+            name: 'CHORIZO IBÉRICO',
             price: {
               small: 1,
               medium: 2,
@@ -1127,7 +1141,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHORIZO PICCANTE",
+            name: 'CHORIZO PICCANTE',
             price: {
               small: 1,
               medium: 2,
@@ -1135,7 +1149,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CHICHARRONES",
+            name: 'CHICHARRONES',
             price: {
               small: 1,
               medium: 2,
@@ -1143,7 +1157,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SALSICCIA BIANCA",
+            name: 'SALSICCIA BIANCA',
             price: {
               small: 1,
               medium: 2,
@@ -1151,7 +1165,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "SANGUINACCIO",
+            name: 'SANGUINACCIO',
             price: {
               small: 1,
               medium: 2,
@@ -1167,7 +1181,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FORMAGGIO STAGIONATO",
+            name: 'FORMAGGIO STAGIONATO',
             price: {
               small: 1,
               medium: 2,
@@ -1175,7 +1189,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FORMAGGIO PICCANTE",
+            name: 'FORMAGGIO PICCANTE',
             price: {
               small: 1,
               medium: 2,
@@ -1183,61 +1197,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "FORMAGGIO PAYOYO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-        ],
-      },
-      {
-        category: "TAPAS E PORZIONI",
-        size: ["tapa", "media", "ración"],
-        items: [
-          {
-            name: "INSALATA RUSSA",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "SPIEDINO DI POLLO MOORISH",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "POLPETTE DI CARNE AL SUGO DI POMODORO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "SALPICON DI POLPO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "ACCIUGHE BIANCHE IN ACETO",
-            price: {
-              small: 1,
-              medium: 2,
-              large: 3,
-            },
-          },
-          {
-            name: "ACCIUGHE NERE",
+            name: 'FORMAGGIO PAYOYO',
             price: {
               small: 1,
               medium: 2,
@@ -1247,11 +1207,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "CONSERVE",
-        size: ["tapa", "media", "ración"],
+        category: 'TAPAS E PORZIONI',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "COZZE MARINATE",
+            name: 'INSALATA RUSSA',
             price: {
               small: 1,
               medium: 2,
@@ -1259,7 +1219,39 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "ACCIUGHE DEL CANTABRICO",
+            name: 'SPIEDINO DI POLLO MOORISH',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'POLPETTE DI CARNE AL SUGO DI POMODORO',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'SALPICON DI POLPO',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'ACCIUGHE BIANCHE IN ACETO',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'ACCIUGHE NERE',
             price: {
               small: 1,
               medium: 2,
@@ -1269,11 +1261,11 @@ export const DYNAMIC_CONTENT = {
         ],
       },
       {
-        category: "INSALATE",
-        size: ["tapa", "media", "ración"],
+        category: 'CONSERVE',
+        size: ['tapa', 'media', 'ración'],
         items: [
           {
-            name: "POMODORO CON TONNO",
+            name: 'COZZE MARINATE',
             price: {
               small: 1,
               medium: 2,
@@ -1281,7 +1273,21 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "POMODORO DI CONIL CON TONNO",
+            name: 'ACCIUGHE DEL CANTABRICO',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+        ],
+      },
+      {
+        category: 'INSALATE',
+        size: ['tapa', 'media', 'ración'],
+        items: [
+          {
+            name: 'POMODORO CON TONNO',
             price: {
               small: 1,
               medium: 2,
@@ -1289,7 +1295,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "PEPERONI ARROSTITI CON TONNO",
+            name: 'POMODORO DI CONIL CON TONNO',
             price: {
               small: 1,
               medium: 2,
@@ -1297,7 +1303,7 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "INSALATA MIXTA",
+            name: 'PEPERONI ARROSTITI CON TONNO',
             price: {
               small: 1,
               medium: 2,
@@ -1305,7 +1311,15 @@ export const DYNAMIC_CONTENT = {
             },
           },
           {
-            name: "CARCIOFI",
+            name: 'INSALATA MIXTA',
+            price: {
+              small: 1,
+              medium: 2,
+              large: 3,
+            },
+          },
+          {
+            name: 'CARCIOFI',
             price: {
               small: 1,
               medium: 2,
