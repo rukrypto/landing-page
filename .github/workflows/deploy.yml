@@ -3,7 +3,7 @@ name: Deploy CRA to GitHub Pages
 on:
   push:
     branches:
-      - main  # Cambia a master si tu rama principal se llama master
+      - main # Cambia a master si tu rama principal se llama master
 
 jobs:
   deploy:
@@ -32,6 +32,6 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_PAT }}  # Asegúrate de crear este secret en tu repo
+          personal_token: ${{ secrets.GH_PAT }} # Asegúrate de crear este secret en tu repo
           publish_dir: ./build
           publish_branch: gh-pages
