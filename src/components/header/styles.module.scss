@@ -4,8 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
-    //
-    background-image: url('/../public/assets/images/fondo.png');
+    background-image: url("/../public/assets/images/fondo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +28,7 @@
   &__title {
     margin: 0;
     font-size: 60px;
+    font-family: "the seasons", sans-serif, serif;
   }
 
   &__image {

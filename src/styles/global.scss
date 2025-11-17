@@ -1,21 +1,31 @@
-// body {
-//   //
-//   min-height: 2000px;
-//   background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 
-//   *:not(button) {
-//     color: white;
-//   }
-// }
+@font-face {
+  font-family: "the seasons";
+  src: url("/../public/assets/fonts/theseasons-reg.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "the seasons";
+  src: url("/../public/assets/fonts/theseasons-bd.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "the seasons";
+  src: url("/../public/assets/fonts/theseasons-it.otf") format("truetype");
+  font-weight: italic;
+}
 
 body {
   margin: 0;
   overflow-x: hidden;
-  background-image: url('/../public/assets/images/fondo.png'); 
+  background-image: url("/../public/assets/images/fondo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -31,8 +41,7 @@ body::after {
   pointer-events: none;
 }
 
-
 * {
-    //font-family: 'Cinzel Decorative', serif;
-    font-family: 'Metropolis 1920', sans-serif;    
+  //font-family: 'Cinzel Decorative', serif;
+  font-family: "Metropolis 1920", sans-serif, serif;
 }

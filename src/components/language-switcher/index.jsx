@@ -31,11 +31,13 @@ const LanguageSwitcher = () => {
 
       {dropDownStatus && (
         <div className={styles.language__dropdown}>
-          {VALID_LANGUAGES.map((lang) => (
-            <button key={lang} onClick={() => handleLanguage(lang)}>
-              {lang.toUpperCase()}
-            </button>
-          ))}
+          {VALID_LANGUAGES.filter((lang) => lang !== state.language).map(
+            (lang) => (
+              <button key={lang} onClick={() => handleLanguage(lang)}>
+                {lang.toUpperCase()}
+              </button>
+            )
+          )}
         </div>
       )}
     </div>
